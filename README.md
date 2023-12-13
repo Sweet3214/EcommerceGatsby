@@ -1,5 +1,7 @@
 ![Gatsby E-commerce theme designed by Matter](https://user-images.githubusercontent.com/43764894/223762927-2e463570-b09a-4d51-ab81-2e0fa8aa2c70.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a756f2f5-87e0-4ae8-b442-a2456426302c/deploy-status)](https://app.netlify.com/sites/database-ecommerce/deploys)
+
 This beautiful theme from the [Matter Design Team](https://matterdesign.com.au/) gives you the styling and scaffolding for your next e-commerce site. You can customize to your heart's content and add the tooling for cart, transactions, product, and more. This theme uses:
 
 - [Gatsby](https://www.gatsbyjs.com/)
