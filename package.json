@@ -6,7 +6,6 @@
   "author": "杜 <f@oky.services>, Matter Design",
   "dependencies": {
     "@netlify/plugin-gatsby": "^3.7.2",
-    "cypress": "10.3.0",
     "gatsby": "^5.12.12",
     "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.12.3",
