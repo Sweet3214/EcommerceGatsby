@@ -1,35 +1,48 @@
 {
-  "name": "gatsby-ecommerce-theme",
-  "version": "1.0.0",
+  "name": "ecommerce-gatsby",
   "private": true,
-  "description": "An e-commerce theme designed by Matter Design for Netlify.",
-  "author": "Matter Design",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop -p 5000",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "plop": "plop"
-  },
+  "description": "An e-commerce theme designed by cs2104's team for Netlify.",
+  "version": "0.1.0",
+  "author": "杜 <f@oky.services>, Matter Design",
   "dependencies": {
     "@netlify/plugin-gatsby": "^3.7.2",
-    "cypress": "^10.0.3",
-    "gatsby": "^4.5.4",
-    "gatsby-plugin-manifest": "^4.14.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "cypress": "10.3.0",
+    "gatsby": "^5.12.12",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-slick": "^0.29.0"
   },
   "devDependencies": {
-    "gatsby-plugin-netlify": "^5.0.0",
+    "gatsby-plugin-netlify": "^5.1.1",
     "netlify-plugin-cypress": "~2.2.0",
     "plop": "^3.0.5",
-    "prettier": "^2.6.2"
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby",
+    "eCommerce"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FujiokiO/EcommerceGatsby"
+  },
+  "bugs": {
+    "url": "https://github.com/FujiokiO/EcommerceGatsby/issues"
   }
 }
